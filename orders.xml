@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<allOrders>
+    <order number = "1">
+        <orderID>TO-001</orderID>
+        <time>1</time>
+        <destination>Miami, FL</destination>
+        <item>
+            <itemID>ABC123</itemID>
+            <quantity>180</quantity>
+        </item>
+        <item>
+            <itemID>CR2032</itemID>
+            <quantity>320</quantity>
+        </item>
+    </order>
+    <order number = "2">
+        <orderID>TO-002</orderID>
+        <time>1</time>
+        <destination>Boston, MA</destination>
+        <item>
+            <itemID>PL123-C</itemID>
+            <quantity>5</quantity>
+        </item>
+        <item>
+            <itemID>XLK200B</itemID>
+            <quantity>120</quantity>
+        </item>
+    </order>
+    <order number = "3">
+        <orderID>TO-003</orderID>
+        <time>4</time>
+        <destination>Seattle, WA</destination>
+        <item>
+            <itemID>XTP202</itemID>
+            <quantity>100</quantity>
+        </item>
+        <item>
+            <itemID>E24li</itemID>
+            <quantity>105</quantity>
+        </item>
+    </order>
+    <order number = "4">
+        <orderID>TO-004</orderID>
+        <time>10</time>
+        <destination>Phoenix, AZ</destination>
+        <item>
+            <itemID>CR2032</itemID>
+            <quantity>200</quantity>
+        </item>
+        <item>
+            <itemID>SR71-D</itemID>
+            <quantity>85</quantity>
+        </item>
+    </order>
+    <order number = "5">
+        <orderID>TO-005</orderID>
+        <time>7</time>
+        <destination>Chicago, IL</destination>
+        <item>
+            <itemID>XLK200B</itemID>
+            <quantity>120</quantity>
+        </item>
+        <item>
+            <itemID>RX100-3</itemID>
+            <quantity>200</quantity>
+        </item>
+        <item>
+            <itemID>SN-241-L</itemID>
+            <quantity>60</quantity>
+        </item>
+    </order>
+    <order number = "6">
+        <orderID>TO-006</orderID>
+        <time>1</time>
+        <destination>Denver, CO</destination>
+        <item>
+            <itemID>CT1928</itemID>
+            <quantity>120</quantity>
+        </item>
+        <item>
+            <itemID>MM35P</itemID>
+            <quantity>200</quantity>
+        </item>
+    </order>
+
+</allOrders>

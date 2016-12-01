@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<allFacilities>
+    
+    <facility name = "Seattle">
+        <city>Seattle</city>
+        <state>WA</state>
+        <ratePerDay>8</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Fargo</city>
+                <state>ND</state>
+                <distance>1426</distance>
+            </directLink>
+            <directLink>
+                <city>San Francisco</city>
+                <state>CA</state>
+                <distance>808</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>ABC123</itemID>
+                <quantity>45</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>JBL3100</itemID>
+                <quantity>52</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>PL123-C</itemID>
+                <quantity>54</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>PU238</itemID>
+                <quantity>60</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "San Francisco">
+        <city>San Francisco</city>
+        <state>CA</state>
+        <ratePerDay>12</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Seattle</city>
+                <state>WA</state>
+                <distance>808</distance>
+            </directLink>
+            <directLink>
+                <city>Denver</city>
+                <state>CO</state>
+                <distance>1249</distance>
+            </directLink>
+            <directLink>
+                <city>Los Angeles</city>
+                <state>CA</state>
+                <distance>382</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>RL123A</itemID>
+                <quantity>40</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>XLK200B</itemID>
+                <quantity>8</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SR71-D</itemID>
+                <quantity>81</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>CT1928</itemID>
+                <quantity>46</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Los Angeles">
+        <city>Los Angeles</city>
+        <state>CA</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>San Francisco</city>
+                <state>CA</state>
+                <distance>382</distance>
+            </directLink>
+            <directLink>
+                <city>Phoenix</city>
+                <state>AZ</state>
+                <distance>372</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>RX100-3</itemID>
+                <quantity>57</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>JBL3100</itemID>
+                <quantity>60</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>E241i</itemID>
+                <quantity>44</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>XTP202</itemID>
+                <quantity>32</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Phoenix">
+        <city>Phoenix</city>
+        <state>AZ</state>
+        <ratePerDay>8</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Los Angeles</city>
+                <state>CA</state>
+                <distance>372</distance>
+            </directLink>
+            <directLink>
+                <city>Santa Fe</city>
+                <state>NM</state>
+                <distance>480</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>RX100-3</itemID>
+                <quantity>18</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SR71-D</itemID>
+                <quantity>55</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SN-241-L</itemID>
+                <quantity>22</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>ZTP109</itemID>
+                <quantity>54</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Denver">
+        <city>Denver</city>
+        <state>CO</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>San Francisco</city>
+                <state>CA</state>
+                <distance>1249</distance>
+            </directLink>
+            <directLink>
+                <city>Santa Fe</city>
+                <state>NM</state>
+                <distance>392</distance>
+            </directLink>
+            <directLink>
+                <city>Fargo</city>
+                <state>ND</state>
+                <distance>889</distance>
+            </directLink>
+            <directLink>
+                <city>St. Louis</city>
+                <state>MO</state>
+                <distance>851</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>ABC123</itemID>
+                <quantity>80</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>RL123A</itemID>
+                <quantity>110</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>RTF110</itemID>
+                <quantity>100</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Santa Fe">
+        <city>Santa Fe</city>
+        <state>NM</state>
+        <ratePerDay>8</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Phoenix</city>
+                <state>AZ</state>
+                <distance>480</distance>
+            </directLink>
+            <directLink>
+                <city>Denver</city>
+                <state>CO</state>
+                <distance>392</distance>
+            </directLink>
+            <directLink>
+                <city>St. Louis</city>
+                <state>MO</state>
+                <distance>1032</distance>
+            </directLink>
+            <directLink>
+                <city>Austin</city>
+                <state>TX</state>
+                <distance>688</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>RX100-3</itemID>
+                <quantity>144</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>CR2032</itemID>
+                <quantity>280</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Fargo">
+        <city>Fargo</city>
+        <state>ND</state>
+        <ratePerDay>8</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Seattle</city>
+                <state>WA</state>
+                <distance>1426</distance>
+            </directLink>
+            <directLink>
+                <city>Denver</city>
+                <state>CO</state>
+                <distance>889</distance>
+            </directLink>
+            <directLink>
+                <city>Chicago</city>
+                <state>IL</state>
+                <distance>643</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>ABC123</itemID>
+                <quantity>25</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>JBL3100</itemID>
+                <quantity>32</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>XLK200B</itemID>
+                <quantity>82</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Austin">
+        <city>Austin</city>
+        <state>TX</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Santa Fe</city>
+                <state>NM</state>
+                <distance>688</distance>
+            </directLink>
+            <directLink>
+                <city>St. Louis</city>
+                <state>MO</state>
+                <distance>825</distance>
+            </directLink>
+            <directLink>
+                <city>New Orleans</city>
+                <state>LA</state>
+                <distance>512</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>RL123A</itemID>
+                <quantity>66</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>RX100-3</itemID>
+                <quantity>35</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SN-241-L</itemID>
+                <quantity>35</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "St. Louis">
+        <city>St. Louis</city>
+        <state>MO</state>
+        <ratePerDay>12</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Chicago</city>
+                <state>IL</state>
+                <distance>297</distance>
+            </directLink>
+            <directLink>
+                <city>Nashville</city>
+                <state>TN</state>
+                <distance>309</distance>
+            </directLink>
+            <directLink>
+                <city>Austin</city>
+                <state>TX</state>
+                <distance>825</distance>
+            </directLink>
+            <directLink>
+                <city>Santa Fe</city>
+                <state>NM</state>
+                <distance>1032</distance>
+            </directLink>
+            <directLink>
+                <city>Denver</city>
+                <state>CO</state>
+                <distance>851</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>ABC123</itemID>
+                <quantity>70</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SR71-D</itemID>
+                <quantity>45</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>PU238</itemID>
+                <quantity>82</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Chicago">
+        <city>Chicago</city>
+        <state>IL</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Fargo</city>
+                <state>ND</state>
+                <distance>643</distance>
+            </directLink>
+            <directLink>
+                <city>St. Louis</city>
+                <state>MO</state>
+                <distance>297</distance>
+            </directLink>
+            <directLink>
+                <city>New York City</city>
+                <state>NY</state>
+                <distance>790</distance>
+            </directLink>
+            <directLink>
+                <city>Detroit</city>
+                <state>MI</state>
+                <distance>282</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>ABC123</itemID>
+                <quantity>60</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>E241i</itemID>
+                <quantity>64</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>CT1928</itemID>
+                <quantity>20</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>RTF110</itemID>
+                <quantity>110</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>XTP202</itemID>
+                <quantity>20</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "New Orleans">
+        <city>New Orleans</city>
+        <state>LA</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Austin</city>
+                <state>TX</state>
+                <distance>512</distance>
+            </directLink>
+            <directLink>
+                <city>Nashville</city>
+                <state>TN</state>
+                <distance>532</distance>
+            </directLink>
+            <directLink>
+                <city>Atlanta</city>
+                <state>GA</state>
+                <distance>469</distance>
+            </directLink>
+            <directLink>
+                <city>Miami</city>
+                <state>FL</state>
+                <distance>864</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>MM35P</itemID>
+                <quantity>100</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>PU238</itemID>
+                <quantity>49</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>ZTF109</itemID>
+                <quantity>120</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Nashville">
+        <city>Nashville</city>
+        <state>TN</state>
+        <ratePerDay>8</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>St. Louis</city>
+                <state>MO</state>
+                <distance>309</distance>
+            </directLink>
+            <directLink>
+                <city>New Orleans</city>
+                <state>LA</state>
+                <distance>532</distance>
+            </directLink>
+            <directLink>
+                <city>Norfolk</city>
+                <state>VA</state>
+                <distance>706</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>RX100-3</itemID>
+                <quantity>78</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>XLK200B</itemID>
+                <quantity>250</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>CR2032</itemID>
+                <quantity>366</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SN-241-L</itemID>
+                <quantity>16</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Detroit">
+        <city>Detroit</city>
+        <state>MI</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Chicago</city>
+                <state>IL</state>
+                <distance>282</distance>
+            </directLink>
+            <directLink>
+                <city>New York City</city>
+                <state>NY</state>
+                <distance>297</distance>
+            </directLink>
+            <directLink>
+                <city>Boston</city>
+                <state>MA</state>
+                <distance>719</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>JBL3100</itemID>
+                <quantity>117</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SR71-D</itemID>
+                <quantity>8</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>CT1928</itemID>
+                <quantity>72</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Boston">
+        <city>Boston</city>
+        <state>MA</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Detroit</city>
+                <state>MI</state>
+                <distance>719</distance>
+            </directLink>
+            <directLink>
+                <city>New York City</city>
+                <state>NY</state>
+                <distance>215</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>MM35P</itemID>
+                <quantity>47</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>PL132-C</itemID>
+                <quantity>83</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>CT1928</itemID>
+                <quantity>65</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "New York City">
+        <city>New York City</city>
+        <state>NY</state>
+        <ratePerDay>14</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Boston</city>
+                <state>MA</state>
+                <distance>215</distance>
+            </directLink>
+            <directLink>
+                <city>Detroit</city>
+                <state>MI</state>
+                <distance>614</distance>
+            </directLink>
+            <directLink>
+                <city>Chicago</city>
+                <state>IL</state>
+                <distance>790</distance>
+            </directLink>
+            <directLink>
+                <city>Norfolk</city>
+                <state>VA</state>
+                <distance>363</distance>
+            </directLink>
+        </link>
+            <inventory>
+            <activeInventory>
+                <itemID>RL123A</itemID>
+                <quantity>12</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>CR2032</itemID>
+                <quantity>132</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>E341i</itemID>
+                <quantity>72</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>ZTP109</itemID>
+                <quantity>28</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Norfolk">
+        <city>Norfolk</city>
+        <state>VA</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>New York City</city>
+                <state>NY</state>
+                <distance>363</distance>
+            </directLink>
+            <directLink>
+                <city>Nashville</city>
+                <state>TN</state>
+                <distance>706</distance>
+            </directLink>
+            <directLink>
+                <city>Atlanta</city>
+                <state>GA</state>
+                <distance>566</distance>
+            </directLink>
+        </link>
+            <inventory>
+            <activeInventory>
+                <itemID>MM35P</itemID>
+                <quantity>66</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>RL123A</itemID>
+                <quantity>50</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>XLK200B</itemID>
+                <quantity>14</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Atlanta">
+        <city>Atlanta</city>
+        <state>GA</state>
+        <ratePerDay>10</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Norfolk</city>
+                <state>VA</state>
+                <distance>643</distance>
+            </directLink>
+            <directLink>
+                <city>New Orleans</city>
+                <state>LA</state>
+                <distance>297</distance>
+            </directLink>
+            <directLink>
+                <city>Miami</city>
+                <state>FL</state>
+                <distance>663</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>RX100-3</itemID>
+                <quantity>90</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>E421i</itemID>
+                <quantity>32</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>PU238</itemID>
+                <quantity>120</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+    
+    <facility name = "Miami">
+        <city>Miami</city>
+        <state>FL</state>
+        <ratePerDay>12</ratePerDay>
+        <costPerDay>300</costPerDay>
+        <link>
+            <directLink>
+                <city>Atlanta</city>
+                <state>GA</state>
+                <distance>663</distance>
+            </directLink>
+            <directLink>
+                <city>New Orleans</city>
+                <state>LA</state>
+                <distance>864</distance>
+            </directLink>
+        </link>
+        <inventory>
+            <activeInventory>
+                <itemID>MM35P</itemID>
+                <quantity>16</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>JBL3100</itemID>
+                <quantity>44</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SR71-D</itemID>
+                <quantity>15</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>SN-241-L</itemID>
+                <quantity>28</quantity>
+            </activeInventory>
+            <activeInventory>
+                <itemID>XTP202</itemID>
+                <quantity>88</quantity>
+            </activeInventory>
+        </inventory>
+    </facility>
+</allFacilities>

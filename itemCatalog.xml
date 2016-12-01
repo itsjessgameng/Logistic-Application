@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<items>
+    
+    <item>
+        <itemID>ABC123</itemID>
+        <itemCost>550</itemCost>
+    </item>
+    
+    <item>
+        <itemID>CR2032</itemID>
+        <itemCost>240</itemCost>
+    </item>
+    
+    <item>
+        <itemID>CT1928</itemID>
+        <itemCost>910</itemCost>
+    </item>
+    
+    <item>
+        <itemID>E241i</itemID>
+        <itemCost>10400</itemCost>
+    </item>
+    
+    <item>
+        <itemID>JBL3100</itemID>
+        <itemCost>180</itemCost>
+    </item>
+    
+    <item>
+        <itemID>MM35P</itemID>
+        <itemCost>1950</itemCost>
+    </item>
+    
+    <item>
+        <itemID>PL123-C</itemID>
+        <itemCost>440</itemCost>
+    </item>
+    
+    <item>
+        <itemID>PU238</itemID>
+        <itemCost>2200</itemCost>
+    </item>
+    
+    <item>
+        <itemID>RL123A</itemID>
+        <itemCost>360</itemCost>
+    </item>
+    
+    <item>
+        <itemID>RTP110</itemID>
+        <itemCost>715</itemCost>
+    </item>
+    
+    <item>
+        <itemID>RX100-3</itemID>
+        <itemCost>642</itemCost>
+    </item>
+    
+    <item>
+        <itemID>SN-241-L</itemID>
+        <itemCost>620</itemCost>
+    </item>
+    
+    <item>
+        <itemID>SR71-D</itemID>
+        <itemCost>1600</itemCost>
+    </item>
+    
+    <item>
+        <itemID>XLK200B</itemID>
+        <itemCost>820</itemCost>
+    </item>
+    
+    <item>
+        <itemID>XTP202</itemID>
+        <itemCost>345</itemCost>
+    </item>
+    
+    <item>
+        <itemID>ZTF109</itemID>
+        <itemCost>1100</itemCost>
+    </item>
+    
+</items>
